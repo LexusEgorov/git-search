@@ -1,0 +1,14 @@
+@import 'media'
+
+.results-list
+  display: flex
+  flex-direction: column
+  align-items: center
+  max-width: 1500px
+  min-width: 280px
+  list-style: none
+
+  @include media-min(720)
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center  

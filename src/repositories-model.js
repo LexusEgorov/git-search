@@ -24,6 +24,69 @@ export default class RepositoriesModel extends Observer{
         repoName: 'Legalide',
         description: 'Полностью адаптивная верстка. Mobile first'
       },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
+      {
+        picture: 'https://avatars.githubusercontent.com/u/75787214?v=4',
+        userName: 'LexusEgorov',
+        link: 'https://github.com/LexusEgorov/Legalide',
+        repoName: 'Legalide',
+        description: 'Полностью адаптивная верстка. Mobile first'
+      },
     ];
     this._notify(testResults);
   }

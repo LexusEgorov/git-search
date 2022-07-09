@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import './style.css'
 
 function SearchForm({setRepositories, repositoriesModel}){
   const [searchState, setSearch] = useState('');
@@ -15,7 +16,7 @@ function SearchForm({setRepositories, repositoriesModel}){
           }
         }
       >
-        Click
+        Искать!
       </button>
     </form>
   );

@@ -5,15 +5,40 @@ html,
 body
   height: 100%
 
-body
-  background: url()
+body 
+  background: url(./images/bg.png)
 
 *
   margin: 0
   padding: 0
   text-decoration: none
   font-family: 'Edu SA Beginner', cursive
+  box-sizing: border-box
 
 #root
   width: 320px
-  margin: auto
+  margin: 0 auto
+  margin-top: 20px
+
+  @include media-min(720)
+    width: 720px
+
+  @include media-min(1000)
+    padding: 30px auto 
+    width: 1000px
+  
+  @include media-min(1400)
+    width: 1400px
+  
+  @include media-min(1600)
+    width: 1600px
+
+.App
+  display: flex
+  flex-direction: column
+  align-items: center
+  text-align: center
+  padding: 10px 20px
+
+  .default
+    color: #fff
