@@ -11,7 +11,13 @@ function Result({repo}){
         </div>
         <div className='repo-info'>
           <a href={repo.link}><h3>{repo.repoName}</h3></a>
-          <p>{repo.description.slice(0, 300) + (repo.description.length <= 300 ? '' : '...')}</p>
+          <p>
+            {
+              repo.description ?
+              repo.description.slice(0, 300) + (repo.description.length <= 300 ? '' : '...') :
+              ''
+            }
+          </p>
         </div>
       </div>
     </li>

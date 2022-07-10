@@ -10,13 +10,12 @@ const repositoriesModel = new RepositoriesModel(api);
 
 function App() {
   const [repositories, setRepositories] = useState([]);
-  
   return (
     <div className="App">
       <SearchForm 
         setRepositories={
-          (repositories) => {
-            setRepositories(repositories);
+          (repos) => {
+            setRepositories([...repos]);
           }
         }
         repositoriesModel={repositoriesModel} 

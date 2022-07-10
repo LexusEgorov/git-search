@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: url(./images/bg.png);
+  background: url(./images/bg.jpg) -5px;
 }
 
 * {
@@ -51,5 +51,6 @@ body {
   padding: 10px 20px;
 }
 .App .default {
-  color: #fff;
+  color: #ffffff;
+  font-size: 40px;
 }/*# sourceMappingURL=style.css.map */
